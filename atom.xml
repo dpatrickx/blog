@@ -78,11 +78,11 @@
       <category term="course" scheme="http://blog.dpatrickx.com/categories/course/"/>
     
     
+      <category term="algorithm" scheme="http://blog.dpatrickx.com/tags/algorithm/"/>
+    
       <category term="AI" scheme="http://blog.dpatrickx.com/tags/AI/"/>
     
       <category term="MCFS" scheme="http://blog.dpatrickx.com/tags/MCFS/"/>
-    
-      <category term="algorithm" scheme="http://blog.dpatrickx.com/tags/algorithm/"/>
     
   </entry>
   
@@ -104,9 +104,9 @@
       <category term="course" scheme="http://blog.dpatrickx.com/categories/course/"/>
     
     
-      <category term="algorithm" scheme="http://blog.dpatrickx.com/tags/algorithm/"/>
-    
       <category term="VLSI" scheme="http://blog.dpatrickx.com/tags/VLSI/"/>
+    
+      <category term="algorithm" scheme="http://blog.dpatrickx.com/tags/algorithm/"/>
     
   </entry>
   
