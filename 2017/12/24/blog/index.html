@@ -3,12 +3,12 @@
 <h3 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add follows in _config.yml</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/dpatrickx/dpatrickx.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  message: blog update</span><br><span class="line"></span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 <h3 id="Add-Mathjax"><a href="#Add-Mathjax" class="headerlink" title="Add Mathjax"></a>Add Mathjax</h3><p>Add Mathjax Support like $a_b$</p>
 <h3 id="Post-blog"><a href="#Post-blog" class="headerlink" title="Post blog"></a>Post blog</h3><ul>
-<li>Add markdown file into $BLOG/source/_posts</li>
+<li>Add markdown file into BLOG/source/_posts</li>
 <li>hexo s/g/d</li>
 </ul>
 <h3 id="Post-wiki"><a href="#Post-wiki" class="headerlink" title="Post wiki"></a>Post wiki</h3><ul>
-<li>Add rst file into $WIKI/$DIR/</li>
-<li>modify $WIKI/index.rst</li>
+<li>Add rst file into WIKI/DIR/</li>
+<li>modify WIKI/index.rst</li>
 <li>make html</li>
 <li>./push.sh</li>
 </ul>
