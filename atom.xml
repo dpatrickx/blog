@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.baijiasong.com/"/>
+  <link href="http://baijiasong.github.io/"/>
   <updated>2018-01-06T19:33:11.569Z</updated>
-  <id>http://blog.baijiasong.com/</id>
+  <id>http://baijiasong.github.io/</id>
   
   <author>
     <name>baijiasong</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>丁老师的一生</title>
-    <link href="http://blog.baijiasong.com/2018/01/07/ding/"/>
-    <id>http://blog.baijiasong.com/2018/01/07/ding/</id>
+    <link href="http://baijiasong.github.io/2018/01/07/ding/"/>
+    <id>http://baijiasong.github.io/2018/01/07/ding/</id>
     <published>2018-01-06T17:00:00.000Z</published>
     <updated>2018-01-06T19:33:11.569Z</updated>
     
@@ -31,17 +31,17 @@
     
     </summary>
     
-      <category term="essay" scheme="http://blog.baijiasong.com/categories/essay/"/>
+      <category term="essay" scheme="http://baijiasong.github.io/categories/essay/"/>
     
     
-      <category term="随笔" scheme="http://blog.baijiasong.com/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://baijiasong.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>hexo博客搭建</title>
-    <link href="http://blog.baijiasong.com/2017/12/24/blog/"/>
-    <id>http://blog.baijiasong.com/2017/12/24/blog/</id>
+    <link href="http://baijiasong.github.io/2017/12/24/blog/"/>
+    <id>http://baijiasong.github.io/2017/12/24/blog/</id>
     <published>2017-12-24T03:15:00.000Z</published>
     <updated>2017-12-28T09:05:39.510Z</updated>
     
@@ -53,17 +53,17 @@
     
     </summary>
     
-      <category term="blog" scheme="http://blog.baijiasong.com/categories/blog/"/>
+      <category term="blog" scheme="http://baijiasong.github.io/categories/blog/"/>
     
     
-      <category term="blog" scheme="http://blog.baijiasong.com/tags/blog/"/>
+      <category term="blog" scheme="http://baijiasong.github.io/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>足球机器人 - 球场检测</title>
-    <link href="http://blog.baijiasong.com/2016/07/31/soccerRobot/"/>
-    <id>http://blog.baijiasong.com/2016/07/31/soccerRobot/</id>
+    <link href="http://baijiasong.github.io/2016/07/31/soccerRobot/"/>
+    <id>http://baijiasong.github.io/2016/07/31/soccerRobot/</id>
     <published>2016-07-31T15:00:00.000Z</published>
     <updated>2017-12-28T07:27:00.396Z</updated>
     
@@ -75,17 +75,17 @@
     
     </summary>
     
-      <category term="course" scheme="http://blog.baijiasong.com/categories/course/"/>
+      <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
     
     
-      <category term="opencv" scheme="http://blog.baijiasong.com/tags/opencv/"/>
+      <category term="opencv" scheme="http://baijiasong.github.io/tags/opencv/"/>
     
   </entry>
   
   <entry>
     <title>四子棋ai</title>
-    <link href="http://blog.baijiasong.com/2016/02/29/four-chess/"/>
-    <id>http://blog.baijiasong.com/2016/02/29/four-chess/</id>
+    <link href="http://baijiasong.github.io/2016/02/29/four-chess/"/>
+    <id>http://baijiasong.github.io/2016/02/29/four-chess/</id>
     <published>2016-02-29T03:15:00.000Z</published>
     <updated>2017-12-28T07:29:51.877Z</updated>
     
@@ -97,21 +97,21 @@
     
     </summary>
     
-      <category term="course" scheme="http://blog.baijiasong.com/categories/course/"/>
+      <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
     
     
-      <category term="algorithm" scheme="http://blog.baijiasong.com/tags/algorithm/"/>
+      <category term="algorithm" scheme="http://baijiasong.github.io/tags/algorithm/"/>
     
-      <category term="AI" scheme="http://blog.baijiasong.com/tags/AI/"/>
+      <category term="AI" scheme="http://baijiasong.github.io/tags/AI/"/>
     
-      <category term="MCFS" scheme="http://blog.baijiasong.com/tags/MCFS/"/>
+      <category term="MCFS" scheme="http://baijiasong.github.io/tags/MCFS/"/>
     
   </entry>
   
   <entry>
     <title>FM划分算法</title>
-    <link href="http://blog.baijiasong.com/2016/01/14/fm/"/>
-    <id>http://blog.baijiasong.com/2016/01/14/fm/</id>
+    <link href="http://baijiasong.github.io/2016/01/14/fm/"/>
+    <id>http://baijiasong.github.io/2016/01/14/fm/</id>
     <published>2016-01-14T07:19:00.000Z</published>
     <updated>2017-12-28T07:44:31.556Z</updated>
     
@@ -123,19 +123,19 @@
     
     </summary>
     
-      <category term="course" scheme="http://blog.baijiasong.com/categories/course/"/>
+      <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
     
     
-      <category term="VLSI" scheme="http://blog.baijiasong.com/tags/VLSI/"/>
+      <category term="VLSI" scheme="http://baijiasong.github.io/tags/VLSI/"/>
     
-      <category term="algorithm" scheme="http://blog.baijiasong.com/tags/algorithm/"/>
+      <category term="algorithm" scheme="http://baijiasong.github.io/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>简易DBMS的c++实现报告</title>
-    <link href="http://blog.baijiasong.com/2015/12/20/database/"/>
-    <id>http://blog.baijiasong.com/2015/12/20/database/</id>
+    <link href="http://baijiasong.github.io/2015/12/20/database/"/>
+    <id>http://baijiasong.github.io/2015/12/20/database/</id>
     <published>2015-12-20T13:20:00.000Z</published>
     <updated>2017-12-28T07:27:00.394Z</updated>
     
@@ -147,10 +147,10 @@
     
     </summary>
     
-      <category term="course" scheme="http://blog.baijiasong.com/categories/course/"/>
+      <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
     
     
-      <category term="DBMS" scheme="http://blog.baijiasong.com/tags/DBMS/"/>
+      <category term="DBMS" scheme="http://baijiasong.github.io/tags/DBMS/"/>
     
   </entry>
   
