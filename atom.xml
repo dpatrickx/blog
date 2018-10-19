@@ -100,11 +100,11 @@
       <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
     
     
-      <category term="algorithm" scheme="http://baijiasong.github.io/tags/algorithm/"/>
-    
       <category term="AI" scheme="http://baijiasong.github.io/tags/AI/"/>
     
       <category term="MCFS" scheme="http://baijiasong.github.io/tags/MCFS/"/>
+    
+      <category term="algorithm" scheme="http://baijiasong.github.io/tags/algorithm/"/>
     
   </entry>
   
@@ -126,9 +126,9 @@
       <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
     
     
-      <category term="VLSI" scheme="http://baijiasong.github.io/tags/VLSI/"/>
-    
       <category term="algorithm" scheme="http://baijiasong.github.io/tags/algorithm/"/>
+    
+      <category term="VLSI" scheme="http://baijiasong.github.io/tags/VLSI/"/>
     
   </entry>
   
