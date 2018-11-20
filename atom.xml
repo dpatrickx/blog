@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>baijiasong&#39;s blog</title>
+  <title>Bai Jiasong&#39;s blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://baijiasong.github.io/"/>
+  <link href="http://dpatrickx.github.io/blog/"/>
   <updated>2018-01-06T19:33:11.569Z</updated>
-  <id>http://baijiasong.github.io/</id>
+  <id>http://dpatrickx.github.io/blog/</id>
   
   <author>
-    <name>baijiasong</name>
+    <name>Bai Jiasong</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>丁老师的一生</title>
-    <link href="http://baijiasong.github.io/2018/01/07/ding/"/>
-    <id>http://baijiasong.github.io/2018/01/07/ding/</id>
+    <link href="http://dpatrickx.github.io/blog/2018/01/07/ding/"/>
+    <id>http://dpatrickx.github.io/blog/2018/01/07/ding/</id>
     <published>2018-01-06T17:00:00.000Z</published>
     <updated>2018-01-06T19:33:11.569Z</updated>
     
@@ -31,17 +31,17 @@
     
     </summary>
     
-      <category term="essay" scheme="http://baijiasong.github.io/categories/essay/"/>
+      <category term="essay" scheme="http://dpatrickx.github.io/blog/categories/essay/"/>
     
     
-      <category term="随笔" scheme="http://baijiasong.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://dpatrickx.github.io/blog/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>hexo博客搭建</title>
-    <link href="http://baijiasong.github.io/2017/12/24/blog/"/>
-    <id>http://baijiasong.github.io/2017/12/24/blog/</id>
+    <link href="http://dpatrickx.github.io/blog/2017/12/24/blog/"/>
+    <id>http://dpatrickx.github.io/blog/2017/12/24/blog/</id>
     <published>2017-12-24T03:15:00.000Z</published>
     <updated>2017-12-28T09:05:39.510Z</updated>
     
@@ -53,17 +53,17 @@
     
     </summary>
     
-      <category term="blog" scheme="http://baijiasong.github.io/categories/blog/"/>
+      <category term="blog" scheme="http://dpatrickx.github.io/blog/categories/blog/"/>
     
     
-      <category term="blog" scheme="http://baijiasong.github.io/tags/blog/"/>
+      <category term="blog" scheme="http://dpatrickx.github.io/blog/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>足球机器人 - 球场检测</title>
-    <link href="http://baijiasong.github.io/2016/07/31/soccerRobot/"/>
-    <id>http://baijiasong.github.io/2016/07/31/soccerRobot/</id>
+    <link href="http://dpatrickx.github.io/blog/2016/07/31/soccerRobot/"/>
+    <id>http://dpatrickx.github.io/blog/2016/07/31/soccerRobot/</id>
     <published>2016-07-31T15:00:00.000Z</published>
     <updated>2017-12-28T07:27:00.396Z</updated>
     
@@ -75,17 +75,17 @@
     
     </summary>
     
-      <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
+      <category term="course" scheme="http://dpatrickx.github.io/blog/categories/course/"/>
     
     
-      <category term="opencv" scheme="http://baijiasong.github.io/tags/opencv/"/>
+      <category term="opencv" scheme="http://dpatrickx.github.io/blog/tags/opencv/"/>
     
   </entry>
   
   <entry>
     <title>四子棋ai</title>
-    <link href="http://baijiasong.github.io/2016/02/29/four-chess/"/>
-    <id>http://baijiasong.github.io/2016/02/29/four-chess/</id>
+    <link href="http://dpatrickx.github.io/blog/2016/02/29/four-chess/"/>
+    <id>http://dpatrickx.github.io/blog/2016/02/29/four-chess/</id>
     <published>2016-02-29T03:15:00.000Z</published>
     <updated>2017-12-28T07:29:51.877Z</updated>
     
@@ -97,21 +97,21 @@
     
     </summary>
     
-      <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
+      <category term="course" scheme="http://dpatrickx.github.io/blog/categories/course/"/>
     
     
-      <category term="AI" scheme="http://baijiasong.github.io/tags/AI/"/>
+      <category term="algorithm" scheme="http://dpatrickx.github.io/blog/tags/algorithm/"/>
     
-      <category term="MCFS" scheme="http://baijiasong.github.io/tags/MCFS/"/>
+      <category term="AI" scheme="http://dpatrickx.github.io/blog/tags/AI/"/>
     
-      <category term="algorithm" scheme="http://baijiasong.github.io/tags/algorithm/"/>
+      <category term="MCFS" scheme="http://dpatrickx.github.io/blog/tags/MCFS/"/>
     
   </entry>
   
   <entry>
     <title>FM划分算法</title>
-    <link href="http://baijiasong.github.io/2016/01/14/fm/"/>
-    <id>http://baijiasong.github.io/2016/01/14/fm/</id>
+    <link href="http://dpatrickx.github.io/blog/2016/01/14/fm/"/>
+    <id>http://dpatrickx.github.io/blog/2016/01/14/fm/</id>
     <published>2016-01-14T07:19:00.000Z</published>
     <updated>2017-12-28T07:44:31.556Z</updated>
     
@@ -123,19 +123,19 @@
     
     </summary>
     
-      <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
+      <category term="course" scheme="http://dpatrickx.github.io/blog/categories/course/"/>
     
     
-      <category term="algorithm" scheme="http://baijiasong.github.io/tags/algorithm/"/>
+      <category term="VLSI" scheme="http://dpatrickx.github.io/blog/tags/VLSI/"/>
     
-      <category term="VLSI" scheme="http://baijiasong.github.io/tags/VLSI/"/>
+      <category term="algorithm" scheme="http://dpatrickx.github.io/blog/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>简易DBMS的c++实现报告</title>
-    <link href="http://baijiasong.github.io/2015/12/20/database/"/>
-    <id>http://baijiasong.github.io/2015/12/20/database/</id>
+    <link href="http://dpatrickx.github.io/blog/2015/12/20/database/"/>
+    <id>http://dpatrickx.github.io/blog/2015/12/20/database/</id>
     <published>2015-12-20T13:20:00.000Z</published>
     <updated>2017-12-28T07:27:00.394Z</updated>
     
@@ -147,10 +147,10 @@
     
     </summary>
     
-      <category term="course" scheme="http://baijiasong.github.io/categories/course/"/>
+      <category term="course" scheme="http://dpatrickx.github.io/blog/categories/course/"/>
     
     
-      <category term="DBMS" scheme="http://baijiasong.github.io/tags/DBMS/"/>
+      <category term="DBMS" scheme="http://dpatrickx.github.io/blog/tags/DBMS/"/>
     
   </entry>
   
