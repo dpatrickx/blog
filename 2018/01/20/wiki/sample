@@ -1,0 +1,71 @@
+# Project Information
+site_name: name
+site_description: description
+site_author: author
+site_url: url
+
+# Repository
+repo_name: 'username'
+repo_url: 'https://github.com/username/repository'
+edit_uri: 'repository/master/docs/'
+
+# Contents
+pages:
+  - Introduction:
+    - Getting Started: index.md
+
+  - Directory1:
+    - Arcitle 1: machine-learning/linear-regression.md
+
+# Theme
+theme:
+    name: 'material'
+    language: 'zh'
+    palette:
+        primary: 'white'
+        accent: 'red'
+    logo:
+        icon: 'school'
+    feature:
+        tabs: true
+    font:
+        text: 'Fira Sans'
+        code: 'Fira Mono'
+
+# Customization
+extra:
+  search:
+    language: 'jp'
+
+extra_javascript:
+  - '_static/js/extra.js'
+  - 'https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+  - '_static/css/extra.css'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

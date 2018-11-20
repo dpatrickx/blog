@@ -5,9 +5,9 @@
   
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://dpatrickx.github.io/blog/"/>
-  <updated>2018-01-06T19:33:11.569Z</updated>
-  <id>http://dpatrickx.github.io/blog/</id>
+  <link href="https://dpatrickx.github.io/blog/"/>
+  <updated>2018-11-20T08:48:53.293Z</updated>
+  <id>https://dpatrickx.github.io/blog/</id>
   
   <author>
     <name>Bai Jiasong</name>
@@ -17,9 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>mkdocs wiki搭建</title>
+    <link href="https://dpatrickx.github.io/blog/2018/01/20/wiki/"/>
+    <id>https://dpatrickx.github.io/blog/2018/01/20/wiki/</id>
+    <published>2018-01-20T01:00:00.000Z</published>
+    <updated>2018-11-20T08:48:53.293Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="MKDOCS"><a href="#MKDOCS" class="headerlink" title="MKDOCS"></a>MKDOCS</h3><p><a href="https://www.mkdocs.org/" target="_blank" rel="noopener">MkDocs</a> is a fast, simple and downright gorgeous static site generator that’s geared towards building project documentation.</p><h3 id="Install-mkdocs-on-Mac"><a href="#Install-mkdocs-on-Mac" class="headerlink" title="Install mkdocs on Mac"></a>Install mkdocs on Mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip install mkdocs</span><br><span class="line">mkdocs <span class="built_in">help</span></span><br></pre></td></tr></table></figure><h3 id="New-wiki-directory"><a href="#New-wiki-directory" class="headerlink" title="New wiki directory"></a>New wiki directory</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdocs new <span class="variable">$PROJECT_NAME</span></span><br><span class="line"><span class="built_in">cd</span> <span class="variable">$PROJECT_NAME</span></span><br></pre></td></tr></table></figure><p>Modify configurations in $WIKI/mkdocs.yml, a <a href="/blog/2018/01/20/wiki/sample" title="sample">sample</a> is given here.</p><h3 id="New-wiki-page"><a href="#New-wiki-page" class="headerlink" title="New wiki page"></a>New wiki page</h3><ol><li>Add markdown file in $WIKI/docs/</li><li>Modify Contents section in $WIKI/mkdocs.yml</li><li>run <a href="/blog/2018/01/20/wiki/deploy.sh" title="deploy.sh">deploy.sh</a></li><li>push all file to github</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      Build wiki based on mkdocs
+    
+    </summary>
+    
+      <category term="blog" scheme="https://dpatrickx.github.io/blog/categories/blog/"/>
+    
+    
+      <category term="blog" scheme="https://dpatrickx.github.io/blog/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>丁老师的一生</title>
-    <link href="http://dpatrickx.github.io/blog/2018/01/07/ding/"/>
-    <id>http://dpatrickx.github.io/blog/2018/01/07/ding/</id>
+    <link href="https://dpatrickx.github.io/blog/2018/01/07/ding/"/>
+    <id>https://dpatrickx.github.io/blog/2018/01/07/ding/</id>
     <published>2018-01-06T17:00:00.000Z</published>
     <updated>2018-01-06T19:33:11.569Z</updated>
     
@@ -31,21 +53,21 @@
     
     </summary>
     
-      <category term="essay" scheme="http://dpatrickx.github.io/blog/categories/essay/"/>
+      <category term="essay" scheme="https://dpatrickx.github.io/blog/categories/essay/"/>
     
     
-      <category term="随笔" scheme="http://dpatrickx.github.io/blog/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://dpatrickx.github.io/blog/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>hexo博客搭建</title>
-    <link href="http://dpatrickx.github.io/blog/2017/12/24/blog/"/>
-    <id>http://dpatrickx.github.io/blog/2017/12/24/blog/</id>
+    <link href="https://dpatrickx.github.io/blog/2017/12/24/blog/"/>
+    <id>https://dpatrickx.github.io/blog/2017/12/24/blog/</id>
     <published>2017-12-24T03:15:00.000Z</published>
-    <updated>2017-12-28T09:05:39.510Z</updated>
+    <updated>2018-11-20T08:30:52.507Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Install-hexo-on-Mac"><a href="#Install-hexo-on-Mac" class="headerlink" title="Install hexo on Mac"></a>Install hexo on Mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><h3 id="Change-theme-into-maupassant-refe"><a href="#Change-theme-into-maupassant-refe" class="headerlink" title="Change theme into maupassant refe"></a>Change theme into maupassant <a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="noopener">refe</a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</span><br><span class="line">npm install hexo-renderer-pug --save</span><br><span class="line">npm install hexo-renderer-sass --save</span><br><span class="line">change theme to maupassant <span class="keyword">in</span> _config.yml</span><br></pre></td></tr></table></figure><h3 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add follows in _config.yml</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/dpatrickx/dpatrickx.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  message: blog update</span><br><span class="line"></span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><h3 id="Add-Mathjax"><a href="#Add-Mathjax" class="headerlink" title="Add Mathjax"></a>Add Mathjax</h3><p>Add Mathjax Support like $a_b$</p><h3 id="Post-blog"><a href="#Post-blog" class="headerlink" title="Post blog"></a>Post blog</h3><ul><li>Add markdown file into BLOG/source/_posts</li><li>hexo s/g/d</li></ul><h3 id="Post-wiki"><a href="#Post-wiki" class="headerlink" title="Post wiki"></a>Post wiki</h3><ul><li>Add rst file into WIKI/DIR/</li><li>modify WIKI/index.rst</li><li>make html</li><li>./push.sh</li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="Install-hexo-on-Mac"><a href="#Install-hexo-on-Mac" class="headerlink" title="Install hexo on Mac"></a>Install hexo on Mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><h3 id="Change-theme-into-maupassant-refe"><a href="#Change-theme-into-maupassant-refe" class="headerlink" title="Change theme into maupassant refe"></a>Change theme into maupassant <a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="noopener">refe</a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</span><br><span class="line">npm install hexo-renderer-pug --save</span><br><span class="line">npm install hexo-renderer-sass --save</span><br><span class="line">change theme to maupassant <span class="keyword">in</span> _config.yml</span><br></pre></td></tr></table></figure><h3 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add follows in _config.yml</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/dpatrickx/dpatrickx.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  message: blog update</span><br><span class="line"></span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><h3 id="Add-Mathjax"><a href="#Add-Mathjax" class="headerlink" title="Add Mathjax"></a>Add Mathjax</h3><p>Add Mathjax Support like $a_b$</p><h3 id="Post-blog"><a href="#Post-blog" class="headerlink" title="Post blog"></a>Post blog</h3><ul><li>Add markdown file into BLOG/source/_posts</li><li>hexo s/g/d</li></ul>]]></content>
     
     <summary type="html">
     
@@ -53,19 +75,19 @@
     
     </summary>
     
-      <category term="blog" scheme="http://dpatrickx.github.io/blog/categories/blog/"/>
+      <category term="blog" scheme="https://dpatrickx.github.io/blog/categories/blog/"/>
     
     
-      <category term="blog" scheme="http://dpatrickx.github.io/blog/tags/blog/"/>
+      <category term="blog" scheme="https://dpatrickx.github.io/blog/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>足球机器人 - 球场检测</title>
-    <link href="http://dpatrickx.github.io/blog/2016/07/31/soccerRobot/"/>
-    <id>http://dpatrickx.github.io/blog/2016/07/31/soccerRobot/</id>
+    <link href="https://dpatrickx.github.io/blog/2016/07/31/soccerRobot/"/>
+    <id>https://dpatrickx.github.io/blog/2016/07/31/soccerRobot/</id>
     <published>2016-07-31T15:00:00.000Z</published>
-    <updated>2017-12-28T07:27:00.396Z</updated>
+    <updated>2018-11-20T08:21:32.459Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1-概况"><a href="#1-概况" class="headerlink" title="1. 概况"></a>1. 概况</h3><p>在本部分我主要负责检测球场和确定机器人位置的工作.<br>具体可以分为:</p><ol><li>根据标注出白线的kinect视角图(424*512)，进行坐标映射、直线拟合来确定视野中属于的各条线;</li><li>在1的基础上确定机器人的坐标及朝向.</li></ol><h3 id="2-坐标系说明"><a href="#2-坐标系说明" class="headerlink" title="2. 坐标系说明"></a>2. 坐标系说明</h3><ul><li>图片坐标系(rc): 左上角为(0, 0), r轴向右, c轴向下;</li><li>kinect坐标系(xyz): 即kinect坐标系, 以kinect镜头为原点, x轴向左, z轴为镜头法线方向, y轴与z轴垂直, 指向上;pict 1</li></ul><p><img src="http://i.imgur.com/mkdYPfM.png" alt=""></p><ul><li>机器人坐标系(uv): 以左上角为原点, u轴向右, v轴向下的机器人视角平面图. 机器人为(423, 255)点;</li><li>世界坐标系(XY): 在球场中的坐标系, 面向对方半场, 以左上角为原点, u轴沿底线向右, v轴沿边线向后.</li></ul><h3 id="3-坐标变换方法"><a href="#3-坐标变换方法" class="headerlink" title="3. 坐标变换方法"></a>3. 坐标变换方法</h3><p>通过之前同学的视觉识别工作, 已经可以标记出kinect深度图中属于白线的部分, 即知道白线的图片坐标.</p><p>在此基础上调用libfreenect2中getPointXYZ()函数, 可以获知kinect深度图视野中任一点在kinect坐标系下的坐标, 即知道图片的kinect坐标.</p><p>接下来要做的工作就是将kinect坐标转换为机器人坐标, 在实验中我们是将kinect固定在机器人最上方, 用俯瞰的方式来观察球场, 因此kinect和水平面之间有一个固定夹角. 如下图:</p><p><img src="http://i.imgur.com/qfwokQG.png" alt=""></p><p>通过图中所示, 可知, kinect坐标系下(x, y, z)映射到机器人坐标(u, v)的映射关系为:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">u = 256 +　x</span><br><span class="line">v = 424 - (z*cos(theta) + ｄ)</span><br></pre></td></tr></table></figure></p><p>其中ｄ是为了将坐标修正到机器人中心所加常数, theta是kinect与水平面所成夹角, 该余弦值可以经过预先测定获取．</p><p>因为kinect所得视野左右颠倒, 因此在这里对u坐标取反.</p><p><img src="http://i.imgur.com/mpvEm3Y.png" alt=""></p><p>不难发现, 该映射对球场完全成立的前提是球场各点高度相等, 因此当球场上存在褶皱时, 该映射对褶皱部分所得的v值会偏小, 因此褶皱部分在所得平面图中影响会被放大, 如下图, 底线上的褶皱导致所得平面图很不规整.</p><p><img src="http://i.imgur.com/pafT2ro.png" alt=""></p><h3 id="4-球场检测"><a href="#4-球场检测" class="headerlink" title="4. 球场检测"></a>4. 球场检测</h3><p>接下来所要做的工作就是用直线来拟合球场的边线\禁区线, 这部分也是整个部分耗时最多, 代码量最多的部分. 究其原因就是3中所得平面图中各条边线并不规整. 因此用了很多 取平均/求拟合 的方法来尝试得到较好的匹配结果.</p><h4 id="4-1-直线拟合"><a href="#4-1-直线拟合" class="headerlink" title="4.1 直线拟合"></a>4.1 直线拟合</h4><p>往届中有使用直线拟合来完成本工作的例子, 因此最开始选取此方法来对球场进行拟合, 尝试用拟合+筛选的结果来作为球场匹配结果, 具体思路如下:</p><ol><li>使用Canny算子完成边检测, 即理想情况下只保留各条白线的边框, 实际操作中可以在本步之前加一些模糊操作;</li></ol><p><img src="http://i.imgur.com/xckYzCF.png" alt=""></p><ol><li>使用霍夫变换来检测直线, 因为1中只保留了白线边框, 因此这里可以对拟合结果进行一定的平移, 以达到拟合白线中心的目的;</li><li>对所得直线进行筛选, 可以采用判断 经过白点总数/连续经过白点数目的方式;</li><li>如果两条直线距离在一定范围内, 进行合并, 保留经过白点数量多的直线, 反复执行直到没有可以合并的直线为止;</li><li>所得即为最终拟合结果.</li></ol><p>因为存在之前所提的边线不规整的原因, 所以本步得到的结果很糟糕, 几乎不能用来进行匹配和定位, 如下图:</p><p><img src="http://i.imgur.com/897UO9G.png" alt=""></p><h4 id="4-2-固定模式匹配"><a href="#4-2-固定模式匹配" class="headerlink" title="4.2 固定模式匹配"></a>4.2 固定模式匹配</h4><p>在4.1基础上, 最后采用了 “先确定球场大致位置, 再用规整的球场来拟合角度” 的思路.</p><h5 id="4-2-1-确定角球点"><a href="#4-2-1-确定角球点" class="headerlink" title="4.2.1 确定角球点"></a>4.2.1 确定角球点</h5><p>因为角球区特征最为明显, 而且容易确定原点位置, 因此我们尝试先利用4.1中的算法大致确定球场是否是角球区, 如果是的话, 再找到角球点位置, 再在角球点周围, 用标准的球场线来”拟合”白点, 拟合白点最多的角度就是配准后的结果.</p><p>按这个思路, 接下来的重点就是如何判断角球区以及如何准确地找到角球点位置.</p><p>首先为了排除干扰, 先反复使用erode和dialite函数来获取白线的skeleton, 再去除图中的孤立点, 结果如下图:</p><p><img src="http://i.imgur.com/2aQrrYj.png" alt=""></p><ul><li><p>判断角球区:</p><ol><li>角球区一般拟合结果会有4条距离较近的直线, 因此可以用直线距离作为判断准则;</li><li>角球区另一个特点就是有两条边线, 边线的确定可以遍历所有白点, 如果大多数白点都在直线的某一侧, 就可以将该条直线看做边线.</li></ol></li><li><p>获取角球点:</p><ol><li>之前判断出的两条变线的交点就是角球点的大致方位;</li><li>在该交点旁边寻找最近的白点来当做角球点即可, 经过检验准确度基本可以得到保证.</li></ol></li></ul><p>实际算法中, 在上述判断标准的基础上都进行了一些 遍历相邻节点/取最优 操作, 以对结果做一定修正.</p><h5 id="4-2-2-匹配整体球场"><a href="#4-2-2-匹配整体球场" class="headerlink" title="4.2.2 匹配整体球场"></a>4.2.2 匹配整体球场</h5><p>在完成4.2.1操作后, 如果机器人视野中包括角球区, 那么已经可以确定角球点的位置, 接下来需要用已知标准的球场来拟合即可, 思路如下:</p><ol><li>用一根直线绕角球点旋转, 取经过白点最多角度, 如果经过的白点数量大于某一阙值, 进行2;</li><li>在1基础上, 用垂直于该边线的另一条直线来拟合白点, 如果经过白点数量大于一个阙值, 进行3;</li><li>在2基础上, 用经过白点数量来确定大禁区线位置, 同时也确定了1和2中确定直线哪条是底线, 哪条是边线.</li></ol><p>为了防止角球点位置不对导致错误匹配结果, 选取4.2.1中所得角球点周围若干点(实验中选16个)同时进行上述1/2操作, 如果1和2都成立, 则记录该角度, 到最后取平均角度作为最终边线/底线的角度. 通过检验, 可以得到较好效果, 随着机器人行走也可以较为及时地确定当前球场.</p><p><img src="http://i.imgur.com/p468GjV.png" alt=""></p><p>需要注意的是, 在某些特定角度, 和底线平行的大禁区线同样会被认定为底线, 因此4.2.1有可能会返回多个角球点, 这里可以按照角球点的图片坐标来区分, 因为机器人视野下的底线一定比禁区线更远, 因此选取图片坐标系中更靠上方的交点即可.</p><p>实际算法中, 在上述基础上, 加入了一些对特殊情况的判断. 参见代码.</p><h3 id="5-检测机器人坐标及朝向"><a href="#5-检测机器人坐标及朝向" class="headerlink" title="5. 检测机器人坐标及朝向"></a>5. 检测机器人坐标及朝向</h3><p>在完成4操作后, 已经得到了匹配后的球场结果. 接下来就需要根据机器人看到的机器人坐标系比来得到机器人在世界坐标系(XY)下的坐标.</p><p>因为已经确定了球场的两条边线的直线方程, 又已知机器人位于(423, 255)点, 因此只需要判断该角球点是在左还是在右即可, 这里先得到机器人和底线中点所连直线的方程, 再将角球点坐标代入, 判断正负即可知道左右.</p><p>在获知左右后, 即可知道机器人的世界坐标(X, Y), 判断底线和水平线夹角即可知道机器人的朝向.</p><p><img src="http://i.imgur.com/OgWrR4Q.png" alt=""></p><p>具体参见代码相应部分.</p><h3 id="6-检测足球世界坐标"><a href="#6-检测足球世界坐标" class="headerlink" title="6. 检测足球世界坐标"></a>6. 检测足球世界坐标</h3><p>在之前同学的视觉检测部分, 可以获取到球的机器人坐标, 在已知机器人的世界坐标的前提下, 可以求出足球的世界坐标, 需要注意的是在不同朝向范围内计算公式有一定区别, 虽然只是高中数学但还是需要认真推导, 实验中为了这个调了挺长时间Orz</p><p>具体参见代码相应部分.</p><h3 id="7-配置"><a href="#7-配置" class="headerlink" title="7. 配置"></a>7. 配置</h3><p>在qt下导入运行即可.<br>加入配置如下:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">CONFIG += c++11</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">DEFINES += TEST_LIBRARY</span><br><span class="line"></span><br><span class="line">SOURCES += test.cpp \</span><br><span class="line">    matchpos.cpp</span><br><span class="line"></span><br><span class="line">HEADERS += test.h\</span><br><span class="line">        test_global.h \</span><br><span class="line">    matchpos.h</span><br><span class="line"></span><br><span class="line">INCLUDEPATH += /usr/local/include \</span><br><span class="line">                /usr/local/include/opencv \</span><br><span class="line">                /usr/local/include/opencv2</span><br><span class="line"></span><br><span class="line">LIBS += /usr/local/lib/libopencv_highgui.so \</span><br><span class="line">        /usr/local/lib/libopencv_core.so    \</span><br><span class="line">        /usr/local/lib/libopencv_imgproc.so \</span><br><span class="line">        /usr/local/lib/libopencv_photo.so</span><br></pre></td></tr></table></figure></p><h3 id="8-总结"><a href="#8-总结" class="headerlink" title="8. 总结"></a>8. 总结</h3><p>本部分实现原理比较简单, 主要工作都在调试改动上, 因为平面图像的误差导致用了很多奇怪的方法来匹配球场, 拟合坐标.</p><p>总结来看, 在刚开始还是对整体识别思路理得不够清楚, 有些地方可以用更好更简洁的方法来处理; 此外在各种角度计算统一上也出了很多bug, 也属于一开始没有统一好的锅..</p><p>最后郑重感谢老师和助教在小学期里的辛勤指导, 在很多地方给予了我们很关键的帮助.</p>]]></content>
     
@@ -75,17 +97,17 @@
     
     </summary>
     
-      <category term="course" scheme="http://dpatrickx.github.io/blog/categories/course/"/>
+      <category term="course" scheme="https://dpatrickx.github.io/blog/categories/course/"/>
     
     
-      <category term="opencv" scheme="http://dpatrickx.github.io/blog/tags/opencv/"/>
+      <category term="opencv" scheme="https://dpatrickx.github.io/blog/tags/opencv/"/>
     
   </entry>
   
   <entry>
     <title>四子棋ai</title>
-    <link href="http://dpatrickx.github.io/blog/2016/02/29/four-chess/"/>
-    <id>http://dpatrickx.github.io/blog/2016/02/29/four-chess/</id>
+    <link href="https://dpatrickx.github.io/blog/2016/02/29/four-chess/"/>
+    <id>https://dpatrickx.github.io/blog/2016/02/29/four-chess/</id>
     <published>2016-02-29T03:15:00.000Z</published>
     <updated>2017-12-28T07:29:51.877Z</updated>
     
@@ -97,21 +119,21 @@
     
     </summary>
     
-      <category term="course" scheme="http://dpatrickx.github.io/blog/categories/course/"/>
+      <category term="course" scheme="https://dpatrickx.github.io/blog/categories/course/"/>
     
     
-      <category term="algorithm" scheme="http://dpatrickx.github.io/blog/tags/algorithm/"/>
+      <category term="algorithm" scheme="https://dpatrickx.github.io/blog/tags/algorithm/"/>
     
-      <category term="AI" scheme="http://dpatrickx.github.io/blog/tags/AI/"/>
+      <category term="AI" scheme="https://dpatrickx.github.io/blog/tags/AI/"/>
     
-      <category term="MCFS" scheme="http://dpatrickx.github.io/blog/tags/MCFS/"/>
+      <category term="MCFS" scheme="https://dpatrickx.github.io/blog/tags/MCFS/"/>
     
   </entry>
   
   <entry>
     <title>FM划分算法</title>
-    <link href="http://dpatrickx.github.io/blog/2016/01/14/fm/"/>
-    <id>http://dpatrickx.github.io/blog/2016/01/14/fm/</id>
+    <link href="https://dpatrickx.github.io/blog/2016/01/14/fm/"/>
+    <id>https://dpatrickx.github.io/blog/2016/01/14/fm/</id>
     <published>2016-01-14T07:19:00.000Z</published>
     <updated>2017-12-28T07:44:31.556Z</updated>
     
@@ -123,19 +145,19 @@
     
     </summary>
     
-      <category term="course" scheme="http://dpatrickx.github.io/blog/categories/course/"/>
+      <category term="course" scheme="https://dpatrickx.github.io/blog/categories/course/"/>
     
     
-      <category term="VLSI" scheme="http://dpatrickx.github.io/blog/tags/VLSI/"/>
+      <category term="VLSI" scheme="https://dpatrickx.github.io/blog/tags/VLSI/"/>
     
-      <category term="algorithm" scheme="http://dpatrickx.github.io/blog/tags/algorithm/"/>
+      <category term="algorithm" scheme="https://dpatrickx.github.io/blog/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>简易DBMS的c++实现报告</title>
-    <link href="http://dpatrickx.github.io/blog/2015/12/20/database/"/>
-    <id>http://dpatrickx.github.io/blog/2015/12/20/database/</id>
+    <link href="https://dpatrickx.github.io/blog/2015/12/20/database/"/>
+    <id>https://dpatrickx.github.io/blog/2015/12/20/database/</id>
     <published>2015-12-20T13:20:00.000Z</published>
     <updated>2017-12-28T07:27:00.394Z</updated>
     
@@ -147,10 +169,10 @@
     
     </summary>
     
-      <category term="course" scheme="http://dpatrickx.github.io/blog/categories/course/"/>
+      <category term="course" scheme="https://dpatrickx.github.io/blog/categories/course/"/>
     
     
-      <category term="DBMS" scheme="http://dpatrickx.github.io/blog/tags/DBMS/"/>
+      <category term="DBMS" scheme="https://dpatrickx.github.io/blog/tags/DBMS/"/>
     
   </entry>
   
