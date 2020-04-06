@@ -83,26 +83,6 @@
   </entry>
   
   <entry>
-    <title>mkdocs WIKI搭建</title>
-    <link href="https://dpatrickx.github.io/blog/2018/01/20/wiki/"/>
-    <id>https://dpatrickx.github.io/blog/2018/01/20/wiki/</id>
-    <published>2018-01-20T01:00:00.000Z</published>
-    <updated>2019-12-18T21:06:50.618Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="MKDOCS"><a href="#MKDOCS" class="headerlink" title="MKDOCS"></a>MKDOCS</h3><p><a href="https://www.mkdocs.org/" target="_blank" rel="noopener">MkDocs</a> is a fast, simple and downright gorgeous static site generator that’s geared towards building project documentation.</p><h3 id="Install-mkdocs-on-Mac"><a href="#Install-mkdocs-on-Mac" class="headerlink" title="Install mkdocs on Mac"></a>Install mkdocs on Mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip install mkdocs</span><br><span class="line">mkdocs <span class="built_in">help</span></span><br></pre></td></tr></table></figure><h3 id="Create-a-new-wiki-directory"><a href="#Create-a-new-wiki-directory" class="headerlink" title="Create a new wiki directory"></a>Create a new wiki directory</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdocs new <span class="variable">$PROJECT_NAME</span></span><br><span class="line"><span class="built_in">cd</span> <span class="variable">$PROJECT_NAME</span></span><br></pre></td></tr></table></figure><p>Configurations are set in $WIKI/mkdocs.yml, a <a href="/blog/2018/01/20/wiki/sample" title="sample">sample</a> is given here.</p><h3 id="Create-wiki-pages"><a href="#Create-wiki-pages" class="headerlink" title="Create wiki pages"></a>Create wiki pages</h3><ol><li>Add markdown file in $WIKI/docs/</li><li>Modify Contents section in $WIKI/mkdocs.yml</li><li>run <a href="/blog/2018/01/20/wiki/deploy.sh" title="deploy.sh">deploy.sh</a></li><li>push all file to github</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      Build wiki based on mkdocs
-    
-    </summary>
-    
-      <category term="笔记" scheme="https://dpatrickx.github.io/blog/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>丁老师的一生</title>
     <link href="https://dpatrickx.github.io/blog/2018/01/07/ding/"/>
     <id>https://dpatrickx.github.io/blog/2018/01/07/ding/</id>
@@ -118,26 +98,6 @@
     </summary>
     
       <category term="随笔" scheme="https://dpatrickx.github.io/blog/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hexo博客搭建</title>
-    <link href="https://dpatrickx.github.io/blog/2017/12/24/blog/"/>
-    <id>https://dpatrickx.github.io/blog/2017/12/24/blog/</id>
-    <published>2017-12-24T03:15:00.000Z</published>
-    <updated>2019-12-18T21:07:07.981Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Install-hexo-on-Mac"><a href="#Install-hexo-on-Mac" class="headerlink" title="Install hexo on Mac"></a>Install hexo on Mac</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><h3 id="Change-theme-into-maupassant-refe"><a href="#Change-theme-into-maupassant-refe" class="headerlink" title="Change theme into maupassant refe"></a>Change theme into maupassant <a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="noopener">refe</a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</span><br><span class="line">npm install hexo-renderer-pug --save</span><br><span class="line">npm install hexo-renderer-sass --save</span><br><span class="line">change theme to maupassant <span class="keyword">in</span> _config.yml</span><br></pre></td></tr></table></figure><h3 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add follows in _config.yml</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/dpatrickx/dpatrickx.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  message: blog update</span><br><span class="line"></span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><h3 id="Add-Mathjax"><a href="#Add-Mathjax" class="headerlink" title="Add Mathjax"></a>Add Mathjax</h3><p>Add Mathjax Support like $a_b$</p><h3 id="Post-blog"><a href="#Post-blog" class="headerlink" title="Post blog"></a>Post blog</h3><ul><li>Add markdown file into BLOG/source/_posts</li><li>hexo s: Start a localhost server</li><li>hexo g: generate static files</li><li>hexo d: deploy to website</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      Build hexo blog on Github pages
-    
-    </summary>
-    
-      <category term="笔记" scheme="https://dpatrickx.github.io/blog/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
